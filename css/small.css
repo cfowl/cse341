@@ -1,0 +1,136 @@
+
+/*  https://coolors.co/3d5a80-98c1d9-e0fbfc-ceff1a-293241
+--bdazzled-blue: #3d5a80ff;
+--pale-cerulean: #98c1d9ff;
+--light-cyan: #e0fbfcff;
+--electric-lime: #ceff1aff;
+--gunmetal: #293241ff;
+*/
+
+
+body {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 0 .5rem;
+}
+
+header,
+footer {
+    background-color: #3D5A80;
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+}
+
+header img {
+    padding-top: 20px;
+    max-width: 165px;
+}
+
+h1 {
+    color: #CEFF1A;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 2rem;
+    filter: drop-shadow(3px 2px 4px black);
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    margin-top: 35px;
+    margin-right: 10px;
+    border-bottom: 5px solid #293241;
+    padding-bottom: 5px;
+}
+
+nav {
+    margin: 60px 0;
+}
+
+nav h2, nav ol {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    padding: 20px;
+    line-height: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+#copyright {
+    color: #E0FBFC;
+}
+
+#copyright a {
+    color: #E0FBFC;
+}
+
+#copyright a:hover {
+    color: #98C1D9;
+}
+
+#copyright a:active {
+    color: #98C1D9;
+}
+
+#currentYear a {
+    text-decoration: none;
+}
+
+.dates {
+    font-size: 12pt;
+    color: #CEFF1A;
+}
+
+#separate {
+    display: none;
+}
+
+footer span {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: initial;
+}
+
+.nav-button {
+    cursor: pointer;
+}
+
+.rotate90 {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+span {
+    transition: all 200ms ease-in-out;
+}
+
+#toc {
+    background-color: #293241;
+    padding: 1.5rem 2.5rem;
+    color: #E0FBFC;
+}
+
+#toc li {
+    margin: .5rem 0;
+}
+
+#toc a {
+    color: #E0FBFC;
+}
+
+#toc a:hover {
+    color: #98C1D9;
+}
+
