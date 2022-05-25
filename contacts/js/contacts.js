@@ -4,6 +4,9 @@ const display = document.getElementById('contacts-display');
 fetch(url)
 .then(response => response.json())
 .then(data => {
+    // clear the display
+    display.innerHTML = '';
+    // loop through each contact
     data.forEach(c => {
         // create contact card
         const card = document.createElement('div');
