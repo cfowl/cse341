@@ -7,8 +7,9 @@ body {
 }
 
 h1 {
-    color: #ff2222;
-    border-bottom: 4px solid #2222ff;
+    color: #2222ff;
+    border-bottom: 2px solid #ff2222;
+    box-shadow: 0 12px 10px -10px #000;
     padding: 0 0 .5rem 0;
 }
 
@@ -27,7 +28,7 @@ h1 {
 }
 
 .card:hover {
-    box-shadow: 0 0 20px #2222ff;
+    border: 2px solid #2222ff;
 }
 
 .c-list {
@@ -35,7 +36,7 @@ h1 {
 }
 
 footer {
-    background-color: #ff2222;
+    background-color: #2222ffcc;
     color: white;
     margin: 1rem 0 0 0;
     padding: 1rem;
@@ -47,5 +48,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #ddd;
+    color: #ccc;
 }
