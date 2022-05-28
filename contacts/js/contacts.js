@@ -6,6 +6,8 @@ fetch(url)
 .then(data => {
     // clear the display
     display.innerHTML = '';
+    // sort the data
+    data = data.sort((a, b) => (parseInt(a.number)) > (parseInt(b.number)) ? 1 : -1);
     // loop through each contact
     data.forEach(c => {
         // create contact card
