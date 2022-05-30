@@ -17,7 +17,8 @@ fetch(url)
         const list = document.createElement('ul');
         card.classList.add('c-list');
         // add contact items to list
-        card.innerHTML = `<li class='c-item'>No. ${c.number}</lic>`;
+        card.innerHTML = `<img class='c-img' src='data:image/png;base64,${c.portrait}' alt='Portrait of ${c.firstName} ${c.lastName}'>`;
+        card.innerHTML += `<li class='c-item'>No. ${c.number}</lic>`;
         card.innerHTML += `<li class='c-item'>${c.firstName} ${c.lastName}</li>`;
         card.innerHTML += `<li class='c-item'>Date of Birth: ${c.birthday}</li>`;
         card.innerHTML += `<li class='c-item'>Term Length: ${c.term}</li>`;
