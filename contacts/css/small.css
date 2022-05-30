@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+.hidden {
+    display: none !important;
+}
+
 body {
     font-family: sans-serif;
     background-color: #FCF7F8;
@@ -32,6 +36,30 @@ h1:hover {
     color: #3A4D80;
     box-shadow: -1px 1px 0 1px;
     transform: translate(-2px,2px);
+}
+
+#options {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    margin: 0 0 1.2rem 0;
+}
+
+.option-btn {
+    padding: .6rem;
+    box-shadow: -3px 3px 0 3px #CED3DC;
+    border-radius: .6rem;
+    text-align: center;
+    width: 60px;
+    background-color: #3A4D80;
+    color: #FCF7F8;
+}
+
+.option-btn:hover{
+    background-color: #D71921;
+    box-shadow: -1px 1px 0 1px #ABA9C3;
+    transform: translate(-2px,2px);
+    cursor: pointer;
 }
 
 #contacts-display {
@@ -70,10 +98,6 @@ footer {
     margin: 1rem 0 0 0;
     padding: 1rem;
     text-align: center;
-}
-
-footer:hover {
-    background-color: #D71921;
 }
 
 footer a {
