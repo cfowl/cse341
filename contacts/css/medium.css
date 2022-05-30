@@ -1,5 +1,14 @@
-@media only screen and (min-width: 33em) {
-    #contacts-display {
-        grid-template-columns: repeat(2, 1fr);
+@media only screen and (min-width: 39.3em) {
+    h1 {
+        border-radius: 1.2rem;
+    }
+
+    .card {
+        margin: unset;
+        border-radius: 1.2rem;
+    }
+
+    footer{
+        border-radius: 1.2rem;
     }
 }
