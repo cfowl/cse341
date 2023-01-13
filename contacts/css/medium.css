@@ -1,14 +1,10 @@
 @media only screen and (min-width: 39.3em) {
-    h1 {
+    h1, footer {
         border-radius: .9rem;
     }
 
     .card {
         margin: unset;
         border-radius: 1.2rem;
-    }
-
-    footer{
-        border-radius: .9rem;
     }
 }
