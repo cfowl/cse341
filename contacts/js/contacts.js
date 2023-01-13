@@ -1,3 +1,4 @@
+// >>START - FETCH CONTACTS AND BUILD DISPLAY
 const url = 'https://cfowl-cse341.herokuapp.com/contacts';
 const display = document.getElementById('contacts-display');
 
@@ -29,20 +30,21 @@ fetch(url)
         display.appendChild(card);
     });
 });
+// <<END - FETCH CONTACTS AND BUILD DISPLAY
 
 
 // EVENT LISTENERS //
-const viewBtn = document.getElementById('view-btn');
-const editBtn = document.getElementById('edit-btn');
-const cDisplay = document.getElementById('contacts-display');
-const eDisplay = document.getElementById('edit-display');
+// const viewBtn = document.getElementById('view-btn');
+// const editBtn = document.getElementById('edit-btn');
+// const cDisplay = document.getElementById('contacts-display');
+// const eDisplay = document.getElementById('edit-display');
 
-viewBtn.addEventListener('click', ()=>{
-    eDisplay.classList.add('hidden');
-    cDisplay.classList.remove('hidden');
-});
+// viewBtn.addEventListener('click', ()=>{
+//     eDisplay.classList.add('hidden');
+//     cDisplay.classList.remove('hidden');
+// });
 
-editBtn.addEventListener('click', ()=>{
-    cDisplay.classList.add('hidden');
-    eDisplay.classList.remove('hidden');
-});
+// editBtn.addEventListener('click', ()=>{
+//     cDisplay.classList.add('hidden');
+//     eDisplay.classList.remove('hidden');
+// });
